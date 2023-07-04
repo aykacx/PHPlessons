@@ -20,6 +20,10 @@ $arrayVar[]= "ibrahim";
 $arrayVar[]= "aykaç";
 echo ucfirst($arrayVar[0]), " ", ucfirst($arrayVar[1]), " ", mb_strtoupper($arrayVar[2]). "<br>";
 
+if($arrayVar > [1]){echo "More than 2 elements" . "<br>";}
+else{echo "Less than 2 elements". "<br>";}
+
+
 foreach($arrayVar as $array){
     echo ucfirst($array) . "\n";
 }
