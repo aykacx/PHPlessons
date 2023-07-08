@@ -27,5 +27,4 @@ else{echo "Less than 2 elements". "<br>";}
 foreach($arrayVar as $array){
     echo ucfirst($array) . "\n";
 }
-
 ?>
